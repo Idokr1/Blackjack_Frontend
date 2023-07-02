@@ -9,7 +9,7 @@ The project follows Clean Architecture principles, which means that the code is 
 
 ## Run the Project:
 1. Run the server solution and keep it on.
-2. Open the client with Visual Studio Code > Open Services - Api-service.js > Locate "const Axios" > Make sure the baseUrl is "https://localhost:7055/api/Game/"
+2. Open the client with Visual Studio Code > Open Services - Api-service.js > Locate "const Axios" > Make sure the baseURL is "https://localhost:7055/api/Game/"
 3. Run the client using a terminal with "npm start" command
 4. Open the application in your browser: http://localhost:3000
 
