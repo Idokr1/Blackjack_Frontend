@@ -1,0 +1,11 @@
+.main-container {
+  display: inline-block;
+  overflow: hidden;
+  width: 275px;
+  height: 275px;
+}
+
+.card-container {
+  transform-origin: top left;
+  transform: scale(0.5);
+}
