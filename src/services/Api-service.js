@@ -25,7 +25,7 @@ export const endGame = async () => {
     const response = await Axios.post("end-game", {});
     return response;
   } catch (error) {
-    console.log("Error dealer play:", error);
+    console.log("Error ending game:", error);
   }
 };
 
