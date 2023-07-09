@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const Axios = axios.create({
-  // baseURL: "https://localhost:7055/api/Game/",
-  baseURL: "https://blackjack-backend-ido.azurewebsites.net/api/Game/",
+  baseURL: "https://localhost:7055/api/Game/",
   headers: {
     Accept: "*/*",
     Connection: "keep-alive",
